@@ -1,0 +1,45 @@
+.side-menu {
+  width: 220px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.side-menu ul {
+  width: 100%;
+}
+
+.side-menu__lista .side-menu__link{
+  display: block;
+}
+
+.side-menu__imagem {
+  width: 100%;
+}
+
+.side-menu__link {
+  display: block;
+  width: 100%;
+  height: 35px;
+  background: #FFFFFF;
+  padding-left: 24px;
+  
+}
+
+.side-menu__link-text {
+  display: block;
+  background: var(--bg-logo);
+  width: 100%;
+  padding: 15px 0;
+}
+
+.side-menu__texto {
+ font-size: 1.875rem;
+ font-family: var(--roboto);
+ font-weight: 700, bold;
+ line-height: 35px;
+ color: #FFFFFF;
+ text-align: center;
+}
