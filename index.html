@@ -20,18 +20,12 @@
     <div class="side-bar">
       <nav class="side-menu">
         <ul>
-          <li class="side-menu__lista">
-            <a href="#" class="side-menu__link-text">
-              <h1 class="side-menu__texto">SLACA 2019</h1>
-            </a>
-          </li>
-          <li class="side-menu__lista">
-            <img
-              src="img/logo.png"
-              alt="Logo Slaca"
-              class="side-menu__imagem"
-            />
-          </li>
+          <a href="#" class="side-menu__link-text">
+            <h1 class="side-menu__texto">SLACA 2019</h1>
+          </a>
+
+          <img src="img/logo.png" alt="Logo Slaca" class="side-menu__imagem" />
+
           <li class="side-menu__lista">
             <a href="#" class="side-menu__link">Apresentação</a>
           </li>
@@ -55,14 +49,39 @@
     </div>
 
     <header class="cabecalho">
-      <div class="titulo">
-        <h4>Anais do Simpósio Latino Americano de Ciências de Alimentos</h4>
-        <h2>Anais do 13º Simpósio Latino Americano de Ciência de Alimentos</h2>
-        <spam>ISSN: 1234-5678 </spam>
-      </div>
-      <div class="login">
-        <div class="login__btn"></div>
-        <div class="login__info"></div>
+      <div class="cabecalho__conteudo">
+        <div class="cabecalho__titulo">
+          <h4 class="cabecalho__titulo-texto">
+            Anais do Simpósio Latino Americano de Ciências de Alimentos
+          </h4>
+          <h2 class="cabecalho__titulo-texto">
+            Anais do 13º Simpósio Latino Americano de Ciência de Alimentos
+          </h2>
+          <span class="cabecalho__titulo-texto">ISSN: 1234-5678 </span>
+        </div>
+
+        <div class="cabecalho__login">
+          <div class="cabecalho__btn">
+            <img src="img/language image.png" alt="" />
+            <select
+              name="lp"
+              style="width: 80px; border: none; background: none"
+            >
+              <option value="pt-en" selected>PT, BR</option>
+            </select>
+          </div>
+          <div class="cabecalho__info">
+            <div class="cabecalho__info-texto">
+              <h2>Bem vindo!</h2>
+              <p>alguem12@galoascience.com</p>
+            </div>
+            <img
+              src="img/image.png"
+              alt="Imagem perfil"
+              class="cabecalho__info-img"
+            />
+          </div>
+        </div>
       </div>
     </header>
 
@@ -91,6 +110,8 @@
       <section class="discurssoes"></section>
     </main>
 
-    <footer class="rodape"></footer>
+    <footer class="rodape container">
+      <div></div>
+    </footer>
   </body>
 </html>

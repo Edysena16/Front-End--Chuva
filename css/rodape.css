@@ -1,7 +1,7 @@
-.rodape {
-  margin-left: 220px;
-  width:70%;
-  height:auto;
-  background-image: url('../img/download.png');
+.rodape div{
+  width: 100%;
+  height: 200px;
   
+
+  background-image: url('../img/footer.png');
 }
