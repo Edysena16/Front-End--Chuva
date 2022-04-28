@@ -24,6 +24,11 @@ body {
   margin-left: 220px;
 }
 
+.content {
+  width: 870px;
+  height: auto;
+  margin: 0 auto;
+}
 /* .botao {
   text-align: center;
   display: block;
