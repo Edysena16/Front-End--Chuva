@@ -26,8 +26,14 @@
   overflow-y: hidden;
 }
 
-.resumo__conteudo span {
+#btn-resExp {
   color: var(--color-item);
+  border: none;
+  background: none;
+  text-shadow: 2px 2px 5px orange;
+  font-size: 0.875rem;
+  visibility:visible;
+
 }
 
 .resumo__conteudo span:hover {

@@ -51,3 +51,7 @@ body {
 .txt-bold {
   font-weight: bold;
 }
+
+.cursor-p {
+  cursor: pointer; 
+}
