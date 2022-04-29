@@ -162,12 +162,13 @@
           scelerisque, ac gravida eros vestibulum. Etiam aliquam dictum nisl,
           vel aliquet enim accumsan  sit ametl accumsant sit ametl  accu accumsant<span onclick="Exibir()">... ver mais</span
           >
+          <div><hr></div>
         </p>
       </div>
 
       <div class="discursao content">
+        <h1 class="discurssoes__titulo">Dircurssões</h1>
         <div class="discurssoes">
-          <h1 class="discurssoes__titulo">Dircurssões</h1>
           <h2 class="discurssoes__subtitulo">
             Compartilhe suas idéias ou dúvidas com os autores!
           </h2>
@@ -182,10 +183,6 @@
           </div>
         </div>
         <div class="criar-topico">
-          <hr>
-        </div>
-        <div>
-          <hr />
           <form action="">
             <p>
               Tem uma dúvida ou sugestão? Compartilhe seu feedback com os
@@ -193,24 +190,28 @@
             </p>
 
             <label for="assunto">Assunto</label
-            ><input type="text" id="assunto" />
+            ><input type="text" id="assunto" placeholder="Defina um tópico sucinto para notificar os autores.."/>
             <label for="conteudo">Conteúdo</label>
             <textarea id="Conteúdo" cols="30" rows="10"></textarea>
-            <div>
+            <div class="barra-envio">
               <div>
                 <span class="b">B</span>
-                <span class="i">I</span>
+                <span class="b">I</span>
               </div>
-              <input type="submit" value="Enviar" />
+                <button class="btn--" id="btn-submit" type="submit" >Enviar</button>
             </div>
           </form>
-          <hr />
+        </div>
+        
+        <div class="-----">
           <div class="assunto-enviado">
             <p>icon</p>
              <p>aguardando feedback dos autores</p>
             <a href="#">Editar topico</a>
           </div>
         </div>
+
+       <!-- ----------------- CARDS ----------------------->
         <div class="cards">
           <div>
             <h2>Assunto da pergunta aparece aqui</h2>
