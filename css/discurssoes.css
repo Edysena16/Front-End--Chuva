@@ -136,3 +136,55 @@
   font-weight: bold;
 
 }
+
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__content {
+  width: 1028px;
+  height: 148px;
+  box-shadow: 2px 2px 5px rgba(112, 111, 111, 0.219);
+  margin: 20px auto;
+}
+
+.card__titulo {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 11px 0 3px 23px;
+  color: var(--color-item);
+}
+
+.card__texto {
+  font-size: 0.750rem;
+  font-weight: 500;
+  color: #5C5C5C;
+  margin: 5px 0 3px 23px;
+}
+
+.card__corpo-texto {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color:#4D4D4D;
+  padding: 11px 0 20px 23px;
+}
+
+.card__footer {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 5px 0 0px 23px;
+  height: 20px;
+}
+
+.card__footer #card-info {
+ height: 18px;
+}
+
+.card__footer p {
+  color: #757575;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 0.875rem;
+}
