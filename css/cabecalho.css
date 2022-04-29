@@ -60,6 +60,10 @@
   color: rgb(172, 172, 172);
 }
 
+.cabecalho__btn img:hover, select:hover {
+  cursor: pointer;
+}
+
 .cabecalho__info{
   display: flex;
   justify-content: space-between;
