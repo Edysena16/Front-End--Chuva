@@ -1,4 +1,66 @@
-.discurssoes {
+.discursao {
   border: 1px solid #ECECEC;
   margin: 30px 45px;
+}
+
+.discurssoes__titulo {
+  background: var(--bg-topic);
+  width: auto;
+  font-family: var(--roboto);
+  font-weight: 400;
+  font-size: 1.375rem;
+  /* color: #ECECEC; */
+  color: #4E4E4E;
+
+  padding: 10px 15px;
+}
+
+.discurssoes__subtitulo {
+  font-family: var(--roboto);
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-item);
+  font-size: 1.2500rem;
+  line-height: 1.3125rem;
+
+  padding: 15px;
+
+}
+
+#btn-topico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.discurssoes__items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.discurssoes__msg{
+  width: 626px;
+  text-align: center;
+  margin: 53px 0 15px 0;
+  color:#595959;
+  font-size: 0.875rem;
+  font-weight: 400;
+  
+}
+
+.discurssoes__img {
+  width: 220px;
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+.symbol-topico {
+  font-size: 2rem;
+}
+
+#txt-topico {
+  text-align: center;
+  padding-left: 5px;
 }
