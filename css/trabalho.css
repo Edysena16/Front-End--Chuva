@@ -83,11 +83,16 @@
   border: 1px solid #ECECEC;
 }
 
+.box-texto-detalhes {
+  height: 392px;
+  overflow: auto;
+}
+
 .trabalho__conteudo-texto {
   padding: 15px;
   font-size: 0.750rem;
   font-weight: 400;
-  line-height: 120%;
+  line-height: 122%;
   color: #5c5c5c;
 
 }
@@ -95,6 +100,7 @@
 .txt-lista {
   padding: 15px;
   color: #4E4E4E;
+ 
 }
 
 .txt-autores {

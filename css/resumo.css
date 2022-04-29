@@ -16,12 +16,14 @@
 }
 
 .resumo__conteudo {
+  height: 114px;
   font-family: var(--quicksand);
   font-weight: 400;
   font-size: 0.875rem;
   color: #5C5C5C;
   line-height: 1.4375rem;
   padding: 15px;
+  overflow-y: hidden;
 }
 
 .resumo__conteudo span {
@@ -30,5 +32,5 @@
 
 .resumo__conteudo span:hover {
   cursor: pointer;
-  
+
 }

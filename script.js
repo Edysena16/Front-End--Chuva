@@ -1,3 +1,3 @@
-function Exibir() {
-  console.log(' JS AQUI')
+function exibir() {
+  document.getElementById('resumo__id').style.overflow = ''
 }

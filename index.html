@@ -103,7 +103,7 @@
              <button class="botao" id="btn-favoritar"><img src="img/favoritar.svg" ></button>
              <button class="botao" id="btn-doi"><img src="img/doi.png"></button>
            </div>
-           <p id="trabalho__legenda">COMO CITAR ESSE TRABALHO !</p>
+           <p id="trabalho__legenda">COMO CITAR ESSE TRABALHO ?</p>
           </div>
          </div>
         </div>
@@ -122,24 +122,32 @@
 
           <div class="trabalho__conteudo">
             <h1 class="trabalho__detalhes-titulo">Detalhes</h1>
-            <p class="trabalho__conteudo-texto">
-              Tipo de Apresentação: <span class="txt-bold">Pôster</span><br> Eixotemático: <span class="txt-bold">Alimentação e saúde (AS)</span>
-              Palavras-chaves: <span class="txt-bold">Alimentos funcionais, alimentação escolar.</span>
-            </p> 
-            <ul class="txt-lista"><span class="txt-bold">Autores:</span>
-              <li class="txt-autores">Galileo Galilei</li>
-              <li class="txt-autores">Berta Lange de Morretes</li>
-              <li class="txt-autores">Isaac Newton</li>
-              <li class="txt-autores">Cesar Lattes</li>
-              <li class="txt-autores">Stephen Hawking</li>
+            <div class="box-texto-detalhes">
+
+              <p class="trabalho__conteudo-texto">
+                Tipo de Apresentação: <span class="txt-bold">Pôster</span><br> Eixotemático: <span class="txt-bold">Alimentação e saúde (AS)</span>
+                Palavras-chaves: <span class="txt-bold">Alimentos funcionais, alimentação escolar.</span>
+              </p> 
+              <ul class="txt-lista"><span class="txt-bold">Autores:</span>
+                <li class="txt-autores">Galileo Galilei</li>
+                <li class="txt-autores">Berta Lange de Morretes</li>
+                <li class="txt-autores">Isaac Newton</li>
+                <li class="txt-autores">Cesar Lattes</li>
+                <li class="txt-autores">Stephen Hawking</li>
+              </ul>
+              
+            <ul class="txt-list-ref">
+              <li class="txt-ref"><sup>1</sup> Estadual de Campinas </li>
+              <li class="txt-ref"><sup>2</sup>Universidade de São Paulo </li>
+              <li class="txt-ref"><sup>3</sup>Instituto Nacional de Pesquisas Espaciais  </li>
+              <li class="txt-ref"><sup>4</sup>Universidade Federal do Rio de Janeiro</li> 
             </ul>
-            
-          <ul class="txt-list-ref">
-            <li class="txt-ref"><sup>1</sup> Estadual de Campinas </li>
-            <li class="txt-ref"><sup>2</sup>Universidade de São Paulo </li>
-            <li class="txt-ref"><sup>3</sup>Instituto Nacional de Pesquisas Espaciais  </li>
-            <li class="txt-ref"><sup>4</sup>Universidade Federal do Rio de Janeiro</li> 
-          </ul>
+
+            <br>
+              <p class="trabalho__conteudo-texto">
+                Tipo de Apresentação: Pôster Eixo temático: Alimentação e saúde (AS) Palavras-chaves: Alimentos funcionais, alimentação escolar. Autores: Galileo Galilei¹ Berta Lange de Morretes² Isaac Newton³ Cesar Lattes¹ Stephen Hawking⁴ ¹Universidade Estadual de Campinas ²Universidade de São Paulo ³Instituto Nacional de Pesquisas Espaciais ⁴Universidade Federal do Rio de Janeiro
+              </p>
+            </div>
 
                  
           </div>
@@ -148,21 +156,14 @@
       </section>
       <div class="resumo content">
         <h1 class="resumo__titulo">Resumo</h1>
-        <p class="resumo__conteudo">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-          vitae turpis auctor, mollis felis ut, commodo turpis. Phasellus
-          felis mauris, egestas eget cursus et, iaculis quis lacus. Fusce
-          auctor eros sed magna ultricies gravida. Etiam aliquam dictum nisl,
-          vel aliquet enim accumsan sit amet. Donec finibus nisi tellus, ut
-          viverra lorem vestibulum ut. Phasellus condimentum orci id leo
-          condimentum lobortis et non lorem. Sed id nisl metus. Quisque
-          sollicitudin ligula in sapien scelerisque, ac gravida eros
-          vestibulum Phasellus condimentum orci id leo condimentum lobortis et
-          non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien
-          scelerisque, ac gravida eros vestibulum. Etiam aliquam dictum nisl,
-          vel aliquet enim accumsan  sit ametl accumsant sit ametl  accu accumsant<span onclick="Exibir()">... ver mais</span
-          >
-          <div><hr></div>
+        <p class="resumo__conteudo" id="resumo__id">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. Phasellus felis mauris, egestas eget cursus. Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum.
+
+          Fusce vitae luctus dui. Donec id euismod mauris, in volutpat urna. Proin dapibus consequat feugiat. Proin dictum justo arcu, quis vestibulum augue lacinia quis. Sed dignissim dui nulla, ut faucibus mauris sodales id. Aliquam erat volutpat. Maecenas dolor enim, tincidunt id elit non, suscipit interdum turpis. Etiam finibus urna libero, eget interdum eros volutpat ullamcorper. Pellentesque et pretium lorem. Aenean interdum qui<button onclick="exibir()">... ver mais</button> <br><br> ac porttitor. Cras nec ipsum pulvinar, pharetra libero non, ornare enim. Etiam in laoreet odio.
+          
+          Nam eget tristique elit, at fermentum tellus. Mauris scelerisque ligula id eleifend feugiat. Donec eleifend vehicula sem nec dapibus. Integer scelerisque neque dui, in lacinia erat molestie eu. Phasellus maximus dui eget lacus porta tempor. Ut ex nibh, dignissim quis purus semper, efficitur facilisis turpis. Praesent blandit elementum ultricies. Aliquam sit amet enim sit amet nulla pulvinar lobortis consectetur non odio. Phasellus at lacus hendrerit, vulputate nisi sit amet, viverra mauris. Etiam eu scelerisque orci. Quisque sagittis, mi vitae pharetra iaculis, orci elit eleifend massa, eu posuere mauris odio id odio. Morbi eu libero luctus, consectetur lorem vel, interdum sapien. Aenean in porta arcu. Maecenas eu maximus massa.
+          
+          Praesent velit dolor, dignissim sed quam ac, efficitur porta justo. Pellentesque porta pharetra felis ut hendrerit. Nulla facilisi. Aliquam erat volutpat. Nunc sit amet faucibus quam. Maecenas dapibus luctus dolor at viverra. Duis nec fringilla libero. Duis risus nibh, viverra ac orci nec, iaculis dictum sem. Aliquam at malesuada arcu. Aliquam erat volutpat. Donec varius ipsum purus, ut vehicula purus placerat vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         </p>
       </div>
 
