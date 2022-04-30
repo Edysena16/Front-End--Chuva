@@ -1,0 +1,42 @@
+.discurssao-painel-send{
+  display: block;
+  position: relative;
+}
+
+.box-enviar {
+  display:flex;
+}
+
+.cards-div {
+  display: contents;
+  background-color: #4D4D4D;
+  z-index: 0;
+  position: absolute;
+}
+
+.assunto-enviado {
+  width: 1028px;
+  height: 148px;
+  opacity: 0.8;
+  background: #DDDDDD;
+  border: 1px solid #e7e7e734;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.247);
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.assunto-enviado img {
+  margin-top: 35px;
+}
+
+.assunto-enviado{
+  margin: 8px;
+}
+.link-enviado{
+  color: var(--color-item);
+  text-decoration: underline;
+  
+}

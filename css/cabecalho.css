@@ -63,6 +63,9 @@
 .cabecalho__btn img:hover, select:hover {
   cursor: pointer;
 }
+.cabecalho__btn option:active, select:active {
+  border: none;
+}
 
 .cabecalho__info{
   display: flex;

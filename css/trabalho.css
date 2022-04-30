@@ -43,11 +43,12 @@
 
 #btn-favoritar {
   width: 43px;
+  padding: 7px;
 }
 
 #btn-doi {
   width: 43px;
-  
+  padding: 6px;
 }
 
 #trabalho__legenda {
