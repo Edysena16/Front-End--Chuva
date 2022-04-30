@@ -3,6 +3,10 @@
   margin: 30px 45px;
 }
 
+.discurssao-painel{
+  display: block;
+}
+
 .discurssoes__titulo {
   background: var(--bg-topic);
   width: auto;
@@ -66,6 +70,7 @@
 }
 
 .criar-topico {
+  display:none;
   width: auto;
   text-align: center;
 }
@@ -96,8 +101,9 @@
 }
 .criar-topico form input, textarea {
   margin: 0 15px;
-  border: 1px solid #cccccc;
+  border: 1px solid #cccccc83;
   border-radius: 3px;
+  resize: none;
 }
 
 .barra-envio {
@@ -140,6 +146,36 @@
 
 }
 
+.box-enviar {
+  display:flex;
+}
+
+.assunto-enviado {
+  width: 1028px;
+  height: 148px;
+  opacity: 0.8;
+  background: #DDDDDD;
+  border: 1px solid #e7e7e734;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.247);
+  border-radius: 4px;
+}
+
+.assunto-enviado img {
+  margin-top: 35px;
+}
+
+.assunto-enviado{
+  margin: 8px;
+}
+.link-enviado{
+  color: var(--color-item);
+  text-decoration: underline;
+  
+}
+/* ---------- CARDS ---------------*/
 .cards {
   display: flex;
   flex-direction: column;
@@ -190,4 +226,78 @@
   color: #757575;
   font-family: 'Segoe UI', sans-serif;
   font-size: 0.875rem;
+}
+
+/* ----- Cards Comments --------*/
+
+.card-expandido{
+  display: none;
+  width: 1028px;
+  margin: 0 auto;
+  box-shadow: 2px 2px 5px rgba(112, 111, 111, 0.082);
+  position: relative;
+  top: -19px;
+
+}
+
+.card__content-b {
+  background: #F8F8F8;
+  border: 1px solid #e7e7e786;
+  box-sizing: border-box;
+  height: auto;
+  box-shadow: 2px 2px 5px rgba(112, 111, 111, 0.082);
+}
+
+.card__content-w {
+  background: #FFFFFF;
+  border: 1px solid #e7e7e786;
+  box-sizing: border-box;
+  height: auto;
+  box-shadow: 2px 2px 5px rgba(112, 111, 111, 0.082);
+}
+
+#autor-adriano {
+  padding: 18px 23px 35px 23px;
+}
+
+#autor-carlos{
+  padding: 18px 23px 25px 23px;
+}
+
+.respostas-header {
+  display: flex;
+  justify-content: space-between;
+}
+.a_p {
+  color: #4D4D4D;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 15px;
+  margin-top: 10px;
+
+}
+.a_title {
+  color: #5C5C5C;
+  font-size: 0.750rem;
+  font-weight: 700;
+  line-height: 15px;
+  margin-top: 10px;
+  
+}
+
+.p-right {
+  display: inline-block;
+  text-align:end;
+  text-align-last: right;
+  color: var(--color-item);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+#autor-camila{
+  padding: 18px 23px 35px 23px;
+}
+
+#autor-ana{
+  padding: 18px 23px 35px 23px;
 }
