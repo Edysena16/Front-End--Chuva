@@ -19,3 +19,8 @@ function exibirResposta() {
   resp = document.getElementById('content-resp')
   resp.style.display = 'block'
 }
+
+function exibirResposta1() {
+  resp = document.getElementById('content-resp-1')
+  resp.style.display = 'block'
+}
