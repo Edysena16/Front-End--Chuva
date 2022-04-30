@@ -20,6 +20,9 @@
 
   padding: 10px 15px;
 }
+#title-form {
+  text-align: left;
+}
 
 .discurssoes__subtitulo {
   font-family: var(--roboto);

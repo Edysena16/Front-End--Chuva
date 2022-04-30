@@ -1,17 +1,25 @@
-.discurssao-painel-send{
-  display: block;
+.discurssoes__painel-send{
+  display: none;
   position: relative;
 }
 
 .box-enviar {
   display:flex;
+  position: relative;
+  bottom: 100px;
+  
 }
 
-.cards-div {
+.cards-div-send {
   display: contents;
   background-color: #4D4D4D;
-  z-index: 0;
-  position: absolute;
+  
+}
+
+.card__content-div {
+  position: relative;
+  top: 20px;
+  filter: blur(1px);
 }
 
 .assunto-enviado {

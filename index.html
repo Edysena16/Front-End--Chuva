@@ -172,7 +172,7 @@
 
           <div class="discursao content">
             <div class="discurssoes__painel" id="discurssao-painel">
-              <h1 class="discurssoes__titulo">Dircurssões</h1>
+              <h1 class="discurssoes__titulo">Discussões</h1>
               <div class="discurssoes">
               <h2 class="discurssoes__subtitulo">
               Compartilhe suas idéias ou dúvidas com os autores!
@@ -190,7 +190,8 @@
           
             </div>
           <div class="criar-topico" id="criar-topico" >
-            <form>
+            <h1 class="discurssoes__titulo" id="title-form">Discussões</h1>
+            <form id="form-adiciona">
               <p>
                 Tem uma dúvida ou sugestão? Compartilhe seu feedback com os
                 autores!
@@ -205,7 +206,7 @@
                   <span class="b cursor-p">B</span>
                   <span class="b cursor-p">I</span>
                 </div>
-                  <button class="btn-- cursor-p" id="btn-submit" type="submit" >Enviar</button>
+                  <button class="btn-- cursor-p" id="btn-submit" type="submit"  onclick="event.preventDefault(),enviarMsg()">Enviar</button>
               </div>
             </form>
           </div>
@@ -213,7 +214,7 @@
           <!-- ################### SEND ##################-->
 
           <div class="discurssoes__painel-send" id="discurssao-painel-send">
-            <h1 class="discurssoes__titulo">Dircurssões</h1>
+            <h1 class="discurssoes__titulo">Discussões</h1>
             <div class="discurssoes">
               <div>
                 <h2 class="discurssoes__subtitulo">
@@ -226,17 +227,17 @@
       
                 <div class="discurssoes__items-send">
                   <div>
-                    <a href="#">Descubra outros trabalhos!</a>
+                    <a href="https://github.com/Edysena16" target="_blank">Descubra outros trabalhos!</a>
                   </div>
       
-                  <a onclick="criarTopico()" class="botao" id="btn-topico-send"><span class="symbol-topico"> + </span><span id="txt-topico-send">criar novo tópico</span></a>
+                  <a onclick=" criarNovoTopico()" class="botao" id="btn-topico-send"><span class="symbol-topico"> + </span><span id="txt-topico-send">criar novo tópico</span></a>
                 </div>
               </div>
             </div>
 
             
           <!-- ##################### div ########-->
-          <div class="cards-div">
+          <div class="cards-div-send">
             <div class="card__content-div">
               <h2 class="card__titulo">Assunto da pergunta aparece aqui</h2>
               <p class="card__texto">Carlos Henrique dos Santos</p>
@@ -254,7 +255,7 @@
               <div >
                 <img class="icon-enviar" src="img/enviado.svg">
                 <p>Aguardando feedback dos autores</p>
-                <a class="link-enviado" href="#">Editar topico</a>
+                <a class="link-enviado cursor-p" onclick="editarTopico()">Editar topico</a>
               </div>
               
             </div>
