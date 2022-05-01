@@ -49,3 +49,15 @@ function enviarMsg() {
   send = document.getElementById('discurssao-painel-send')
   send.style.display = 'block'
 }
+
+function like() {
+  like = document.getElementById('like')
+  like.innerHTML = '2 Like'
+  like.style.color = 'blue'
+}
+
+function like2() {
+  like = document.getElementById('like2')
+  like.innerHTML = '2 Like'
+  like.style.color = 'blue'
+}

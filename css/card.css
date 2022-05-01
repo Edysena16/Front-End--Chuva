@@ -42,7 +42,12 @@
   height: 20px;
 }
 
-.card__footer #card-info {
+#card-info {
+  padding: 0px 8px;
+  margin-left: -8px;
+}
+
+.card__footer #card-img {
  height: 18px;
 }
 
