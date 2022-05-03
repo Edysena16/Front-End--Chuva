@@ -26,11 +26,6 @@ body {
   position: relative;
 }
 
-/* .content {
-  width: 96%;
-  height: auto;
-  margin: 0 45px;
-} */
 
 .botao {
   background: var(--color-item);
