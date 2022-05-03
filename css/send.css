@@ -23,8 +23,9 @@
 }
 
 .assunto-enviado {
-  width: 1028px;
-  height: 148px;
+  width: 97%;
+  min-height: 148px;
+  height: auto;
   opacity: 0.8;
   background: #DDDDDD;
   border: 1px solid #e7e7e734;

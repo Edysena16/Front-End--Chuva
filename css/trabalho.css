@@ -8,7 +8,7 @@
   color: var(--color-item);
   margin: 20px 0;
 
-  width: 785px;
+  width: 70%;
 
 }
 
@@ -134,3 +134,12 @@
   
 }
 
+.video{
+  width: 70%;
+  height: 60%;
+}
+
+#video-trabalho {
+  width: 100%;
+  height: 439px;
+}

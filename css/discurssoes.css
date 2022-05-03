@@ -1,8 +1,7 @@
 .discursao {
   border: 1px solid #ECECEC;
-  margin: 30px 45px;
+  margin-top: 30px;
 }
-
 .discurssao-painel{
   display: block;
 }
@@ -58,18 +57,9 @@
 }
 
 .discurssoes__msg{
-  width: 626px;
+  width: 85%;
   text-align: center;
   margin: 53px 0 15px 0;
-  color:#595959;
-  font-size: 0.875rem;
-  font-weight: 400;
-
-}
-.discurssoes__msg-send{
-  width: 1028px;
-  text-align: center;
-  margin: 18px 0 15px 0;
   color:#595959;
   font-size: 0.875rem;
   font-weight: 400;

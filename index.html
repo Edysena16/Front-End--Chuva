@@ -22,36 +22,46 @@
     </head>
 
     <body>
-      <div class="side-bar">
-        <nav class="side-menu">
-          <ul>
-            <a href="#" class="side-menu__link-text">
-              <h1 class="side-menu__texto">SLACA 2019</h1>
-            </a>
+      <div class="menu-section on">
+        <div class="menu-toggle">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
+        </div>
 
-            <img src="img/logo.png" alt="Logo Slaca" class="side-menu__imagem" />
-
-            <li class="side-menu__lista">
-              <a href="#" class="side-menu__link">Apresentação</a>
-            </li>
-            <li class="side-menu__lista">
-              <a href="#" class="side-menu__link">Comitês</a>
-            </li>
-            <li class="side-menu__lista">
-              <a href="#" class="side-menu__link">Autores</a>
-            </li>
-            <li class="side-menu__lista">
-              <a href="#" class="side-menu__link">Eixos temáticos</a>
-            </li>
-            <li class="side-menu__lista">
-              <a href="#" class="side-menu__link">Trabalhos</a>
-            </li>
-            <li class="side-menu__lista">
-              <a href="#" class="side-menu__link">Contato</a>
-            </li>
-          </ul>
-        </nav>
+        <div class="side-bar">
+          <nav class="side-menu">
+            <ul>
+              <a href="#" class="side-menu__link-text">
+                <h1 class="side-menu__texto">SLACA 2019</h1>
+              </a>
+  
+              <img src="img/logo.png" alt="Logo Slaca" class="side-menu__imagem" />
+  
+              <li class="side-menu__lista">
+                <a href="#" class="side-menu__link">Apresentação</a>
+              </li>
+              <li class="side-menu__lista">
+                <a href="#" class="side-menu__link">Comitês</a>
+              </li>
+              <li class="side-menu__lista">
+                <a href="#" class="side-menu__link">Autores</a>
+              </li>
+              <li class="side-menu__lista">
+                <a href="#" class="side-menu__link">Eixos temáticos</a>
+              </li>
+              <li class="side-menu__lista">
+                <a href="#" class="side-menu__link">Trabalhos</a>
+              </li>
+              <li class="side-menu__lista">
+                <a href="#" class="side-menu__link">Contato</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
+
+
 
       <header class="cabecalho">
         <div class="cabecalho__conteudo">
@@ -92,7 +102,7 @@
       </header>
 
       <main class="container">
-        <section class="trabalho content">
+        <section class="trabalho">
           <div class="trabalho__box">
 
             <h1 class="trabalho__titulo-video">
@@ -110,17 +120,17 @@
             </div>
           </div>
           </div>
+
           <div class="trabalho__detalhes">
-            <div>
-              <iframe
-              width="783"
-              height="439"
-              src="https://www.youtube.com/embed/uvkBjtdlXbI"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <div class="video">
+
+              <iframe id="video-trabalho"
+                src="https://www.youtube.com/embed/uvkBjtdlXbI"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
             </div>
 
             <div class="trabalho__conteudo">
@@ -157,7 +167,7 @@
           </div>
 
         </section>
-        <div class="resumo content">
+        <div class="resumo">
           <h1 class="resumo__titulo">Resumo</h1>
           <p class="resumo__conteudo" id="resumo__id">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. Phasellus felis mauris, egestas eget cursus. Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum.
@@ -170,7 +180,7 @@
           </p>
         </div>
 
-          <div class="discursao content">
+          <div class="discursao">
             <div class="discurssoes__painel" id="discurssao-painel">
               <h1 class="discurssoes__titulo">Discussões</h1>
               <div class="discurssoes">
@@ -374,10 +384,10 @@
         </div>
       </main>
 
-      <footer class="rodape container">
-        <div></div>
+      <footer class="rodape"><p><img src="img/footer.png"></p>
       </footer>
 
       <script src="script.js"></script>
+      <script src="menuToggle.js"></script>
     </body>
   </html>
